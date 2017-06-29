@@ -23,4 +23,14 @@
 
    Documentation can be found at https://vuejs-templates.github.io/webpack
 ```
-
+执行安装包指令
+```
+	npm install
+```
+安装成功
+```
+√ Installed 65 packages
+√ Linked 0 latest versions
+√ Run 0 scripts
+√ All packages installed (used 71ms, speed 0B/s, json 0(0B), tarball 0B)
+```
