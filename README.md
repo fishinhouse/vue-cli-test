@@ -25,7 +25,7 @@
 ```
 执行安装包指令
 ```
-	npm install
+npm install
 ```
 安装成功
 ```
@@ -33,4 +33,36 @@
 √ Linked 0 latest versions
 √ Run 0 scripts
 √ All packages installed (used 71ms, speed 0B/s, json 0(0B), tarball 0B)
+```
+
+### 安装工具
+然后我们将安装 Selenium 与 Nightwatch。
+
+* 安装 selenium-standalone：
+```
+npm install selenium-standalone --save-dev
+```
+* 安装 Nightwatch:
+```
+npm install nightwatch --save-dev
+```
+
+
+
+### vue-cli脚手架引入Element UI
+1. 安装 loader 模块
+```
+cnpm install style-loader -D
+cnpm install css-loader -D
+cnpm install file-loader -D
+```
+2. 安装 Element-UI 模块
+```
+cnpm install element-ui -S
+```
+3. 在 main.js 中引入
+```
+import ElementUI from ‘element-ui‘
+import ‘element-ui/lib/theme-default/index.css‘
+Vue.use(ElementUI)
 ```
