@@ -12,7 +12,10 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "startup":"node ./startup.js"
+    "startup":"node ./startup.js",
+    "selenium-setup": "node ./build/selenium-setup.js",
+    "selenium-start": "node ./build/selenium-start.js"
+
   },
   "dependencies": {
     "vue": "^2.3.3",
